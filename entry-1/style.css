@@ -1,4 +1,71 @@
-body {
-    font-family: Montserrat;
-    font-size: small;
+.site{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: fit-content;
+  background-image: url(images/Osipov1.png);
+  position:sticky;
+}
+.site-content {
+  font-family: "montserrat";
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 80px;
+  flex: 1;
+}
+
+h2, h3 {
+  font-family: Varela Round;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Title {
+  color: blue;
+  font-family: "Halvetica";
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  font-style: italic;
+  margin-top: -15px;
+}
+
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+} 
+
+div.scroll-container img {
+  padding: 10px;
+  height: 250px;
+}
+
+.textbox {
+  margin-left: 1%;
+}
+
+a {
+  font-family: 'montserrat';
+
+}
+
+footer {
+display: block;
+padding: 20px;
+background-color: black;
+color: white;;
 }
