@@ -1,5 +1,12 @@
+.site{
+  font-family: "Montserrat";
+  margin: 0;
+  height: 100%
+}
+
 header {
   padding: 20px;
+  margin-bottom: 50px;
   top: 0;
   left: 0;
   width: auto;
@@ -7,20 +14,27 @@ header {
   background-image: url(images/Osipov1.png);
   position:sticky;
 }
-body {
-  font-family: "Roboto";
+.site-content {
+  font-family: "montserrat";
   font-size: 18px;
   margin: auto;
+  margin-bottom: 80px;
+  flex: 1;
 }
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
+
+h1, h2, h3 {
+  font-family: Varela Round;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .Title {
   color: blue;
-  font-family: "Halvetica";
+  font-family: "Varela Round";
   font-size: 100px;
   margin: 0;
   padding: 0;
@@ -36,6 +50,10 @@ body {
 }
 details {
 
+}
+
+a {
+  font-family: 'montserrat';
 }
 
 footer {

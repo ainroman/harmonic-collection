@@ -1,7 +1,7 @@
 .site{
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  font-family: "Montserrat";
+  margin: 0;
+  height: 100%;
 }
 
 header {
@@ -12,6 +12,7 @@ header {
   height: fit-content;
   background-image: url(images/Osipov1.png);
   position:sticky;
+  margin-bottom: 50px;
 }
 .site-content {
   font-family: "montserrat";
@@ -33,10 +34,10 @@ h2, h3 {
 
 .Title {
   color: blue;
-  font-family: "Halvetica";
+  font-family: "Varela Round";
   font-size: 100px;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 .menu {
   font-style: italic;
@@ -60,7 +61,6 @@ div.scroll-container img {
 
 a {
   font-family: 'montserrat';
-
 }
 
 footer {
