@@ -1,0 +1,85 @@
+body {
+  background-color: #001F8D;
+  color: white;
+  font-family: Arial, sans-serif;
+  max-height: fit-content;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+h1 {
+  font-family: "Aclonica",sans-serif;
+  font-size: 190%;
+}
+mark {
+  background-color:hotpink;
+  color: white;
+}
+mark:hover{
+
+}
+#playlist {
+  width: 500px;
+  margin: auto;
+  flex-wrap: nowrap;
+  margin-right: 200px;
+}
+iframe {
+  
+}
+
+#image{
+  margin: auto;
+}
+img {
+  width: 500px;
+  transition-duration: 1s;
+}
+img:hover{
+  transform: scale(125%);
+}
+
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overflow{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/*stickers*/
+.tricks-stickers {
+	display: none !important;
+}
+
+.tricks-sticker {
+  position: absolute !important;
+  left: 0% !important;
+  top: 0%  !important;
+  z-index: 9999999 !important;
+  pointer-events: none; !important;
+  transform: scale(0.8, 0.8);
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.sticker-hide {
+	transform: scale(0, 0) !important;
+}
+
+.overflow {
+	overflow: hidden !important;
+  position: relative !important;
+}
+/*end of sticker code*/

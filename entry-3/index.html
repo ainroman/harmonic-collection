@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Djol of Live</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="overflow">
+  <header>
+
+  </header>
+  
+  <main>
+    <div id="playlist">
+      <h1>
+        <mark>Djol of life</mark> is to listen to music
+       </h1>
+      <iframe style="border-radius:12px" 
+      src="https://open.spotify.com/embed/playlist/38d9ycuLpeixFreHUcitI8?utm_source=generator&theme=0" 
+      width="100%" height="352" frameBorder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+      </iframe>
+      <p>
+        Here's a playlist I based on what I listen to right now, without having to think if it's cringe or bad :)
+       </p>
+    </div>
+    <div id="image">
+      <img src="media/girl music.png" alt="a cheerful girl listening to music in her headphones">
+    </div>
+  </main>
+
+  <div class="tricks-stickers">
+    <img class="trick-sticker" src="media/sticker-01.png">
+    <img class="trick-sticker" src="media/sticker-02.png">
+    <img class="trick-sticker" src="media/sticker-03.png">
+  </div>
+<script>
+// © Code by T.RICKS, https://www.tricksdesign.com/
+// Copyright 2020, T.RICKS, All rights reserved.
+// You have the license to use this code in your projects but not to redistribute it to others
+
+var lastEq = $( ".tricks-stickers .tricks-sticker" ).length - 1;
+var stickerEq = -1;
+
+$( "body" ).click(function(e) {
+	
+	if (stickerEq == lastEq) {
+  	stickerEq = 0;
+  } else {
+  	stickerEq++;
+  };
+  
+  var tricksSticker = $( ".tricks-stickers .tricks-sticker" ).eq(stickerEq).clone().appendTo( ".overflow" );
+  var marginLeft =  e.pageX - (tricksSticker.width() / 2);
+  var marginTop = e.pageY - (tricksSticker.height() / 2);
+  tricksSticker.css({'margin-left': marginLeft, 'margin-top': marginTop, 'transform': 'scale(1, 1)'});
+  
+  // Wait before playing animation
+	setTimeout(() => {  
+		tricksSticker.addClass('sticker-hide');
+	}, 2000);
+  
+});
+
+</script>
+</div>
+</body>
+
+</html>

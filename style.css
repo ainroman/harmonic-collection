@@ -1,68 +1,49 @@
-.site{
-  font-family: "Montserrat";
-  margin: 0;
-  height: 100%
+body {
+  background-color: #001F8D;
+  color: white;
+  font-family: Arial, sans-serif;
+  max-height: fit-content;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
 }
 
-header {
-  padding: 20px;
-  margin-bottom: 50px;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: fit-content;
-  background-image: url(images/Osipov1.png);
-  position:sticky;
+main {
+  display: flex;
+  padding: 150px;
 }
-.site-content {
-  font-family: "montserrat";
-  font-size: 18px;
+
+h1 {
+  font-family: "Aclonica",sans-serif;
+}
+mark {
+  background-color: hotpink;
+  color: white;
+}
+mark:hover{
+
+}
+.text {
+  width: 300px;
+  text-align: center;
   margin: auto;
-  margin-bottom: 80px;
-  flex: 1;
+  flex-wrap: nowrap;
+  margin-right: 300px;
 }
 
-h1, h2, h3 {
-  font-family: Varela Round;
+.images{
+  margin: auto;
+}
+img {
+  width: 300px;
+  transition-duration: 1s;
+}
+img:hover{
+  transform: scale(150%);
 }
 
-.varela-round-regular {
-  font-family: "Varela Round", sans-serif;
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.Title {
-  color: blue;
-  font-family: "Varela Round";
-  font-size: 100px;
-  margin: 0;
-  padding: 0;
-}
-.menu {
-  font-style: italic;
-  margin-top: -15px;
-}
-
-
-.textbox {
-  margin-left: 1%;
-}
-details {
-
-}
-
-a {
-  font-family: 'montserrat';
-}
-
-footer {
-  background-color: #3c9786;
-  padding: 20px;
-  height: 50px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-  
 }
