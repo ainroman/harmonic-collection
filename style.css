@@ -36,7 +36,6 @@ mark:hover{
 }
 img {
   width: 300px;
-  transition-duration: 1s;
 }
 img:hover{
   transform: scale(150%);
