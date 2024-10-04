@@ -6,6 +6,10 @@ body {
 }
 
 main {
+  display: block;
+}
+
+.container {
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -44,6 +48,25 @@ img {
 }
 img:hover{
   transform: scale(125%);
+}
+
+
+#button {
+  background-color: rgb(24, 23, 115);
+  width: 7%;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  border: solid 1px;
+  margin: auto;
+}
+#button a {
+  color: white;
+  font-size: 20px;
+}
+
+#button h1 {
+  font-size: 0;
 }
 
 .aclonica-regular {

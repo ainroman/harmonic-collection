@@ -1,5 +1,6 @@
 body {
   background-color: #001F8D;
+  background-image: url(media/crackers.gif);
   color: white;
   font-family: Arial, sans-serif;
   max-height: fit-content;
@@ -50,7 +51,7 @@ audio {
   height: 200px;
   margin-right: 5px;
   animation-name: scale;
-  animation-duration: 5s;
+  animation-duration: 3s;
   transition-duration: 1s;
 }
 @keyframes scale {
@@ -62,8 +63,29 @@ audio {
   transform: scale(115%);
 }
 
+
+#button {
+  background-color: rgb(24, 23, 115);
+  width: 7%;
+  height: 25px;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  border: solid 1px;
+}
+#button a {
+  color: white;
+  font-size: 20px;
+}
+
+#button h1 {
+  font-size:0;
+}
+
+
 .aclonica-regular {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
