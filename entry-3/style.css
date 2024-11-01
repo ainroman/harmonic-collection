@@ -1,5 +1,9 @@
 body {
   background-color: #001F8D;
+  background-image: url(media/listening-to-music.gif);
+  background-size: 5%;
+  background-position: left top;
+  background-repeat:unset;
   color: white;
   font-family: Arial, sans-serif;
   max-height: fit-content;
