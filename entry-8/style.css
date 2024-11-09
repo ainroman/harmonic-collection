@@ -1,0 +1,124 @@
+body {
+    background-color: #001F8D;
+    background-image: url(media/sun.gif);
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-height: fit-content;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  main {
+    display: flex;
+    justify-content: left;
+    padding: 20%;
+  }
+  
+  h1 {
+    font-family: "Aclonica",sans-serif;
+    padding-bottom: 20%;
+  }
+  mark {
+    background-color: hotpink;
+    color: white;
+  }
+
+  .textbox {
+  }
+
+  #word {
+    font-size: 120px;
+    transform: scale(.5, 1);
+    padding-left: 20%;
+    margin-top: -5%;
+    position: fixed;
+  }
+#next {
+  opacity: 0;
+  height: 50px;
+  padding: 2%;
+}
+  #next:hover {
+    opacity: 100%;
+    color: deeppink;
+    font-size: 15px;
+  }
+
+
+  button {
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    background-color: deeppink;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+  }
+  button:hover {
+    background-color: blueviolet;
+  }
+  button:active {
+    background-color: red;
+  }
+
+  #runningtext {
+    margin-left: -50%;
+    width: 50%;
+    position: absolute;
+    justify-self: left;
+
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 10s linear infinite;
+    animation: my-animation 10s linear infinite;
+  }
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
+
+  #runningtext p {
+    font-size: 54px;
+    transform: scale(.5, 1);
+    color: deepskyblue;
+  }
+
+  .click {
+    background-color: rgb(24, 23, 115);
+    height: 25px;
+    width: 5%;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px;
+    margin: auto;
+    position: absolute;
+    
+  }
+  .click a {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .click h1 {
+    font-size: 0;
+  }

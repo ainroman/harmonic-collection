@@ -58,8 +58,9 @@ body {
   }
 
   .choice {
+    margin-top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
   }
@@ -69,4 +70,21 @@ body {
   }
   .choice img:hover{
     width: 60%;
+  }
+
+  #yes {
+    padding: 2%;   
+  }
+  #yes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #no {
+    padding: 2%;
+  }
+  #no a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
