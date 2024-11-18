@@ -39,7 +39,6 @@ body {
 #next {
   opacity: 0;
   height: 50px;
-  padding: 2%;
 }
   #next:hover {
     opacity: 100%;
