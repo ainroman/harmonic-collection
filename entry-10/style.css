@@ -1,0 +1,112 @@
+body {
+    background-color: #001F8D;
+    background-image: url(media/icegif-861.gif);
+    background-repeat: no-repeat;
+    background-position: 90% 20%;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-height: fit-content;
+    padding: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10%;
+  }
+  
+  h1 {
+    font-family: "Aclonica",sans-serif;
+    padding-bottom: 20%;
+  }
+  mark {
+    background-color: hotpink;
+    color: white;
+  }
+
+  #first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: -10%;
+  }
+  #myDIV {
+    margin-top: -60px;
+  }
+
+  button {
+    width: 10%;
+    height: 25%;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    background-color: deeppink;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+  }
+
+  #second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  #second p {
+    margin-top: -80px;
+  }
+  #second button {
+    transition-duration: 2s;
+  }
+
+  #second button:hover {
+    background-color: red;
+  }
+
+  #smile {
+    width: 100%;
+    position: absolute; 
+    transition-duration: 1s;
+  }
+
+  #smile img {
+    width: 60%;
+    padding-left: 20%;
+    transition-duration: 3s;
+  }
+
+  #smile:hover {
+    background-color: white;
+  }
+
+  #smile:hover img{
+    opacity: 0%;
+  }
+
+  #smile button {
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 0%;
+    transition-duration: 3s;
+  }
+
+  #smile:hover button {
+    opacity: 100%;
+  }
+
+  #fini {
+    background-color: #001F8D;
+    padding: 2%;
+    width: 50%;
+  }
+
+  #fini p{
+    margin-top: -20%;
+  }

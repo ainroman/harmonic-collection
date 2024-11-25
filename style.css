@@ -5,12 +5,12 @@ body {
   max-height: fit-content;
   justify-content: center;
   display: flex;
-  overflow: hidden;
 }
 
-main {
+.main {
   display: flex;
   padding: 150px;
+  margin-top: 2%;
 }
 
 h1 {
@@ -42,8 +42,69 @@ img:hover{
   transform: scale(150%);
 }
 
+a {
+  position: relative
+}
+
+a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+  text-align: center;
+  color: hotpink;
+}
+
+a:hover span {
+  display: block
+}
+
+
 .aclonica-regular {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+details {
+  padding: 2%;
+  margin-top: -20px;
+  width: 80%;
+}
+
+details[open] {
+  padding: 2%;
+  margin-top: -20px;
+  width: 80%;
+  padding-left: 10%;
+}
+
+details div{
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+}
+
+details img {
+  width: 40%;
+}
+
+details a {
+  position: relative
+}
+
+details a span {
+  display: none;
+  bottom: 0;
+  width: 60%;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+  text-align: center;
+  color: hotpink;
+}
+
+details a:hover span {
+  display: block
 }
