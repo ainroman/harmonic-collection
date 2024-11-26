@@ -110,3 +110,8 @@ body {
   #fini p{
     margin-top: -20%;
   }
+
+  #fini button{
+    border: 2px solid white;
+    width: 20%;
+  }
